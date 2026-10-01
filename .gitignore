@@ -1,0 +1,68 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# ViZDoom runtime files and temporary configurations
+_vizdoom.ini
+*.ini
+
+# Telemetria y logs de entrenamiento (TensorBoard)
+logs/**
+!logs/**/.gitkeep
+
+# Modelos y checkpoints de entrenamiento (Pesos binarios ~1.2 GB)
+# Se ignoran para mantener el repositorio ligero y dentro de los limites de GitHub.
+# Para pesos entrenados, se recomienda usar GitHub Releases o almacenamiento externo.
+models/**/*.zip
+models/*.zip
+*.pth
+*.pt
+*.onnx
+*.pkl
+*.h5
+!models/**/.gitkeep
+
+# Pruebas y cobertura
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editores y Sistema Operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
